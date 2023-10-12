@@ -1,0 +1,43 @@
+body {
+    font-family: "Young Serif", serif;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/17/04/09/backround-1204441_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000000; 
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px; 
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+#task-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.3s; 
+}
+
+#task-list li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    background-color: #ff0000;
+    color: white; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #cc0000; 
+}
+
